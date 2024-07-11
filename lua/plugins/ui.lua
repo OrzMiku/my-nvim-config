@@ -13,5 +13,10 @@ return {
     "lukas-reineke/indent-blankline.nvim",
     main = "ibl",
     opts = {}
+  },
+  -- Gitsigins
+  {
+    "lewis6991/gitsigns.nvim",
+    opts = {}
   }
 }
