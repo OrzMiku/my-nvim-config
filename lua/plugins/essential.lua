@@ -14,5 +14,15 @@ return {
     config = function()
       vim.cmd("colorscheme onedark")
     end
-  }
+  },
+  -- Winbar
+	{
+  	"utilyre/barbecue.nvim",
+  	name = "barbecue",
+  	version = "*",
+  	dependencies = {
+    	"SmiteshP/nvim-navic",
+    	"nvim-tree/nvim-web-devicons", -- optional dependency
+  	}
+	}
 }
