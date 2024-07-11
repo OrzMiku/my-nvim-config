@@ -1,31 +1,38 @@
 local opt = vim.opt
 
--- 行号
+-- Line numbers
 opt.relativenumber = true
 opt.number = true
 
--- 缩进
+-- FileType
+opt.filetype = "on"
+
+-- Indentation
+opt.autoindent = true
+opt.cindent = true
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
-opt.autoindent = true
 
--- 防止包裹
+-- Prevent wrapping
 opt.wrap = false
 
--- 光标行
+-- Syntax Highlight
+opt.syntax = "on"
+
+-- Highlight the cursor line
 opt.cursorline = true
 
--- 启用鼠标
+-- Enable mouse usage
 opt.mouse:append("a")
 
--- 系统剪贴板
+-- System clipboard
 opt.clipboard:append("unnamedplus")
 
--- 搜索
+-- Search settings
 opt.ignorecase = true
 opt.smartcase = true
 
--- 外观
+-- Appearance
 opt.termguicolors = true
 opt.signcolumn = "yes"
