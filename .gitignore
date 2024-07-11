@@ -1,0 +1,5 @@
+# Lazy lockfile
+lazy-lock.json
+
+# Vscode
+.vscode/
